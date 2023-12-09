@@ -222,6 +222,7 @@ const messageIconObj = (titleText = 'message', classAttr = 'message-icon', viewB
 
 export {
   doubleChevronLeftObj,
+  doubleChevronRightObj,
   homeIconObj,
   profileIconObj,
   cogIconObj,

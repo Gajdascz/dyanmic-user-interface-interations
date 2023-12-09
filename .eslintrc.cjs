@@ -10,7 +10,7 @@ module.exports = {
       env: {
         node: true
       },
-      files: ['.eslintrc.{js,cjs}', '*.js'],
+      files: ['.eslintrc.{js,cjs}'],
       parserOptions: {
         sourceType: 'module'
       }
@@ -20,7 +20,5 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  rules: {
-    'comma-dangle': ['error', 'only-multiline']
-  }
+  rules: {}
 };
